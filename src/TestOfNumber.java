@@ -18,14 +18,13 @@ public class TestOfNumber {
         // take the last number of input
         int number = Integer.parseInt(String.valueOf(num.charAt(num.length()-1)));
         // test if number is even
-        for (int i=0;i<=10;i+=2)
+        for (int i=0;i<10;i+=2)
             if (number==i)
                 System.out.println("even");
         //test number is odd
-        for (int i=1;i<=10;i+=2)
+        for (int i=1;i<10;i+=2)
             if (number==i)
                 System.out.println("odd");
         }while (!num.equals("-1"));//when stop app
-
     }
 }
